@@ -1,0 +1,31 @@
+.top {
+  margin-top: 10rem !important;
+}
+.title {
+  font-size: 2rem;
+  color: black;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.input::placeholder {
+  font-size: 1.8rem;
+}
+@media (max-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    padding: 7rem;
+  }
+}
+@media (max-width: 750px) {
+  .cards {
+    grid-template-columns: 1.5fr;
+    padding: 7rem;
+    gap: 3rem;
+    padding: 10%;
+  }
+}

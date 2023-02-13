@@ -1,0 +1,15 @@
+.form {
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form__label {
+  width: 40%;
+}
+
+.footer {
+  text-align: center;
+}

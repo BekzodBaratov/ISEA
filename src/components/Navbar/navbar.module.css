@@ -1,0 +1,12 @@
+.link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0073ab;
+  user-select: none;
+}
+
+.link:active {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
